@@ -24,3 +24,7 @@ console.log(usuario)
 
 //llamar saludo 
 usuario.saludar()
+
+//eliminar una propiedad
+delete usuario.trabaja
+console.log(usuario)
