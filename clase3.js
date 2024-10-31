@@ -4,6 +4,10 @@ const usuario ={
     nombre: 'Valeria',
     edad: 20,
     trabaja: true,
+    //agregar una funcion para saludar
+    saludar(){
+        console.log(`hola mi nombre es ${this.nombre}  y tengo ${this.edad} años.`);
+    }
 }
 //imprimir a las propiedades de un objeto 
 
@@ -18,3 +22,5 @@ console.log(usuario.trabaja)
 usuario.carrera = "ingenieria de sistemas"
 console.log(usuario)
 
+//llamar saludo 
+usuario.saludar()
