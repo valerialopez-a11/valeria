@@ -28,3 +28,7 @@ usuario.saludar()
 //eliminar una propiedad
 delete usuario.trabaja
 console.log(usuario)
+
+//consultar si una propiedad existe 
+console.log(usuario.hasOwnProperty('nombre'))
+console.log(usuario.hasOwnProperty('apellido'))
