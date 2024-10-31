@@ -14,3 +14,7 @@ console.log(usuario.nombre)
 console.log(usuario.edad)
 console.log(usuario.trabaja)
 
+//agregar propiedader al usuario 
+usuario.carrera = "ingenieria de sistemas"
+console.log(usuario)
+
